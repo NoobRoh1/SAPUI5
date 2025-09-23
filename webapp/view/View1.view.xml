@@ -4,6 +4,7 @@
     <Page id="page" title="{i18n>title}">
       <content>
         <Button text="Hello People"></Button>
+        <Label text ="Bye People "></Label>
       </content>
     </Page>
 </mvc:View>
