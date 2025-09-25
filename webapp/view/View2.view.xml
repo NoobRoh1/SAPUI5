@@ -1,9 +1,15 @@
-<mvc:View controllerName="com.demo.sapui5.controller.View2"
+<mvc:View xmlns:layout="sap.ui.layout" controllerName="com.demo.sapui5.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="pag" title="View 2" showNavButton="true" navButtonPress="Back">
       <content>
         <!-- <Button text="Back" press="Back"></Button> -->
+        <Text text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
+        <Label text="FirstName" required="true"></Label>
+        <Input width="30%" maxLength="15" />
+        <Label text="LastName:" required="false"></Label>
+        <Input width="30%" />
+        <Button text="Submit" type="Reject"></Button>
       </content>
     </Page>
 </mvc:View>
