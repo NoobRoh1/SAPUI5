@@ -3,7 +3,21 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
       <content>
-        <Button text="Press to view the text" press="Press"></Button>
+        <!-- <Button text="Register Employee Details" press="Press"></Button> -->
+        <Text text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
+        <Label text="FirstName" required="true" class="sapUiTinyMarginBegin"></Label>
+        <Input width="30%" maxLength="15" class="sapUiTinyMarginBegin" />
+        <Label text="LastName:" required="false" class="sapUiTinyMarginBegin"></Label>
+        <Input width="30%" class="sapUiTinyMarginBegin"/>
+        <Button text="Submit" type="Emphasized" class = "sapUiTinyMarginBegin"></Button>
       </content>
+      <footer>
+       <Bar>
+          <contentRight>
+             <Button text="Save" type="Accept" press="Press"> </Button>
+             <Button text="Reset" type="Reject"></Button>
+          </contentRight>
+       </Bar>
+      </footer>
     </Page>
 </mvc:View>
