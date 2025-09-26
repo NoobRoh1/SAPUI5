@@ -4,18 +4,18 @@
     <Page id="page" title="{i18n>title}">
       <content>
         <!-- <Button text="Register Employee Details" press="Press"></Button> -->
-        <Text text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
+        <Text id="main" text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
         <Label text="FirstName" required="true" class="sapUiTinyMarginBegin"></Label>
-        <Input width="30%" maxLength="15" class="sapUiTinyMarginBegin" />
+        <Input id="Inputf" width="30%" maxLength="15" class="sapUiTinyMarginBegin" />
         <Label text="LastName:" required="false" class="sapUiTinyMarginBegin"></Label>
-        <Input width="30%" class="sapUiTinyMarginBegin"/>
-        <Button text="Submit" type="Emphasized" class = "sapUiTinyMarginBegin"></Button>
+        <Input id="Inputs" width="30%" class="sapUiTinyMarginBegin"/>
+        <!-- <Button text="Submit" type="Emphasized" class = "sapUiTinyMarginBegin"></Button> -->
       </content>
       <footer>
        <Bar>
           <contentRight>
-             <Button text="Save" type="Accept" press="Press"> </Button>
-             <Button text="Reset" type="Reject"></Button>
+             <Button id="save" text="Save" type="Accept" press="Saved"> </Button>
+             <Button text="Reset" type="Reject" press="Clear"></Button>
           </contentRight>
        </Bar>
       </footer>
