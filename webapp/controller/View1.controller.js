@@ -15,7 +15,6 @@ sap.ui.define([
         var newname = "Hello " + name +  name1 + " ! your details are saved successfully!!";
 
         this.getView().byId('main').setText(newname);
-        this.getView().byId('save');
         this.getView().byId('save').setType("Reject");
         this.getView().byId('fname').setRequired(false);
 
