@@ -5,9 +5,9 @@
       <content>
         <!-- <Button text="Register Employee Details" press="Press"></Button> -->
         <Text id="main" text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
-        <Label text="FirstName" required="true" class="sapUiTinyMarginBegin"></Label>
+        <Label id="fname" text="FirstName" required="true" class="sapUiTinyMarginBegin"></Label>
         <Input id="Inputf" width="30%" maxLength="15" class="sapUiTinyMarginBegin" />
-        <Label text="LastName:" required="false" class="sapUiTinyMarginBegin"></Label>
+        <Label id="lname" text="LastName:" required="false" class="sapUiTinyMarginBegin"></Label>
         <Input id="Inputs" width="30%" class="sapUiTinyMarginBegin"/>
         <!-- <Button text="Submit" type="Emphasized" class = "sapUiTinyMarginBegin"></Button> -->
       </content>
@@ -17,6 +17,9 @@
              <Button id="save" text="Save" type="Accept" press="Saved"> </Button>
              <Button text="Reset" type="Reject" press="Clear"></Button>
           </contentRight>
+          <contentLeft>
+              <!-- <Text id="message" text="Details saved successfully" textAlign="Left"></Text> -->
+          </contentLeft>
        </Bar>
       </footer>
     </Page>
