@@ -3,7 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title= "View1" >
       <content>
-        <Button text="Register Employee Details" press="Press"></Button>
+        <Button text="Register Details" width="50%" ></Button>
         <Text id="main" text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
         <Label id="fname" text="FirstName" required="true" class="sapUiTinyMarginBegin"></Label>
         <Input id="Inputf" width="30%" maxLength="15" class="sapUiTinyMarginBegin" />
