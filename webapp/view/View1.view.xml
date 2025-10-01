@@ -4,7 +4,7 @@
     <Page id="page" title= "View1" >
       <content>
         <Button text="Register Details" width="50%" ></Button>
-        <Text id="main" text = "Employee Details Page" textAlign="Center" width="100%" class = "fontsize"></Text>
+        <Text id="main" text = "Hello First Page" textAlign="Center" width="100%" class = "fontsize"></Text>
         <Label id="fname" text="FirstName" required="true" class="sapUiTinyMarginBegin"></Label>
         <Input id="Inputf" width="30%" maxLength="15" class="sapUiTinyMarginBegin" />
         <Label id="lname" text="LastName:" required="false" class="sapUiTinyMarginBegin"></Label>
